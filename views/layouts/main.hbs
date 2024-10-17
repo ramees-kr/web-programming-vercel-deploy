@@ -1,0 +1,19 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout HBS</title>
+    <style>
+      header { background-color: #333; color: rgb(239, 222, 110); text-align: center;
+      padding: 10px; } footer { background-color: #333; color: white;
+      text-align: center; padding: 10px; position: fixed; bottom: 0; width:
+      100%; } main { padding: 20px; }
+    </style>
+  </head>
+  <body>
+    {{>welcome}}
+    <main>
+      {{{body}}}
+    </main>
+  </body>
+</html>
