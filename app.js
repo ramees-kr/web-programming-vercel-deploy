@@ -45,7 +45,7 @@ app.get("/calc", (req, res) => {
   });
 });
 
-app.set("views", __dirname + "./views");
+app.set("views", join(__dirname, "views"));
 
 app.post(
   "/register",
